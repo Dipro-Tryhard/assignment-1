@@ -194,3 +194,93 @@ body{
 }
 
 /* productive section end */
+
+/* feedback-section */
+ 
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+ }
+
+ .user-description{
+    width: 319px; 
+    height: 44px;
+    color: #1E1E1E;
+    }
+
+ .reviewer-name{
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 0px;
+    width: 267px; height: 22px;
+ }
+
+ .date{
+    color: rgba(179, 179, 179, 1);
+     margin-top: 0px;
+     width: 267px; height: 22px;
+}
+
+.avatar{
+    height: 40px; 
+    width: 40px;
+    border-radius:50%;
+}
+
+.reviewer-details{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+  
+    
+}
+
+ .feedback-container{
+      display: flex;
+      gap: 20px; 
+      padding-top: 50px;
+      justify-content: center;
+
+ }
+
+ .user-say{
+      padding: 24px;
+      border: 1px solid rgba(242, 237, 237, 1);
+      border-radius: 14px;
+      width: 367px; 
+ }
+ /* end-feedback section */
+
+ /* focus-section */
+ .focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+ }
+
+.focus-para{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+.focus-btn{
+    padding: 12px 36px;
+    border-radius: 10px;
+  
+}
+ .focus-img{
+    border-radius: 48px;
+    margin-top: 20px;
+ }
+
+ .focus-section{
+    margin: 137px auto;
+    text-align: center;
+    padding-top: 71px;
+    background-color:rgba(244, 244, 244, 1);
+    width: 1140px; height: 632px;
+ }
+
+ /* end-focus section */
