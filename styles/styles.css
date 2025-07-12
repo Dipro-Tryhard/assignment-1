@@ -284,3 +284,103 @@ body{
  }
 
  /* end-focus section */
+
+ /* touch section */
+
+ .touch-section{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 1140px; 
+  height:630px;
+  display: flex;
+  margin: 93px auto;
+  gap: 115px;
+ }
+
+ .touch{
+  font-size: 97px;
+  font-weight: bold;
+  text-align: center;
+  width: 528px;
+  height: 232px;
+ }
+
+ .input{
+  border:1px solid rgba(214, 221, 237, 1);
+  background-color: white;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px ;
+  padding:20px 271px 20px 32px;
+  margin-bottom: 19px;
+ }
+
+ .textarea{
+    border:1px solid rgba(214, 221, 237, 1);
+    width: 497px;
+    height: 135px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px ;
+    padding:20px 20px 20px 32px;
+}
+
+ 
+ .mail{
+  font-size: 18px;
+  font-weight: 500;
+ }
+
+ .name{
+  font-size: 18px;
+  font-weight: 500;
+ }
+
+ .message{
+  font-size: 18px;
+  font-weight: 500;
+ }
+
+ .touch-btn{
+  width: 550px;
+  height: 62px; 
+  padding: 19px 101px;
+  border-radius: 10px;
+  margin-top: 19px;
+  font-weight: bold;
+ }
+ /* touch section end */
+
+ /* footer section */
+ .footer{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 104px 455px;
+ }
+
+.footer-upper-section{
+  text-align: center;
+}
+
+ .footer-title{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  margin-bottom: 0;
+ }
+
+ .footer-description{
+  color: #8987A1;
+  margin-bottom: 20px;
+ }
+
+.footer-links{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+ .footer-links a{
+  text-decoration: none;
+  color: #8987A1;
+ }
+ 
